@@ -119,7 +119,7 @@ resource "aws_instance" "my_instance" {
   vpc_security_group_ids = [aws_security_group.TF_SG.id]  # Use the security group ID
 
   tags = {
-    Name = "MyPublicEC2Instance"
+    Name = "terraform-server"
   }
 }
 
